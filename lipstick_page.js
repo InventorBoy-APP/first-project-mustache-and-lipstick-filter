@@ -44,8 +44,8 @@ function draw(){
 function gotPoses(results){
     if (results.length>0){
         console.log(results);
-        noseX=results[0].pose.nose.x-30;
-        noseY=results[0].pose.nose.y-25;
+        noseX=results[0].pose.nose.x-26;
+        noseY=results[0].pose.nose.y-2;
         console.log("Lipstick X -- "+noseX);
         console.log("Lipstick Y -- "+noseY);
    
